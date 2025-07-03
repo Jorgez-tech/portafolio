@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+}
+
+.navbar {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.navbar a:hover {
+    color: #17a2b8;
+}
+
+header {
+    background: #17a2b8;
+    color: #fff;
+    padding: 4rem 0 2rem 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background 0.2s, color 0.2s;
+}
+.btn-info {
+    background: #17a2b8;
+    color: #fff;
+}
+.btn-outline-info {
+    background: transparent;
+    border: 2px solid #17a2b8;
+    color: #17a2b8;
+}
+.btn-info:hover, .btn-outline-info:hover {
+    background: #138496;
+    color: #fff;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+.card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+.card-img-top {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    height: 180px;
+    object-fit: cover;
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+}
