@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background: #222;
+    background: #000000;
     color: #fff;
     padding: 1rem 0;
 }
@@ -24,9 +24,15 @@ body {
 .navbar a:hover {
     color: #17a2b8;
 }
+.navbar-brand img {
+    filter: brightness(0) invert(1);
+}
 
 header {
-    background: #17a2b8;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/imagen4.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 4rem 0 2rem 0;
 }
@@ -63,9 +69,23 @@ section {
     border-radius: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     margin: 1rem 0;
-    padding: 1rem;
+    padding: 0;
     text-align: center;
+    overflow: hidden;
 }
+
+.image-top {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
 .card-img-top {
     width: 100%;
     border-radius: 1rem 1rem 0 0;
